@@ -1,0 +1,60 @@
+.section7{
+    background-color: rgba(0, 0, 255, 0.623);
+    color: white;
+    position: relative;
+    text-align: center;
+}
+#h2{
+    position: absolute;
+    top: 25%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+#section7_div1{
+    position: absolute;
+    top: 55%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    display: flex;
+    margin: 10px 10px -5000px -30px;
+}
+#flex1{
+    flex: auto;
+    margin-right: 20px;
+}
+#flex2{
+    flex: auto;
+    margin-right: 20px;
+}
+#flex3{
+    flex: auto;
+    margin-right: 20px;
+}
+#section7_div2{
+    position: absolute;
+    bottom: 10%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+#section7_img{
+    height: 400px;
+    opacity: 0.5;
+}
+
+#buttom1, #buttom2{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px 30px 10px 30px;
+}
+#buttom1{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+#buttom2{
+    color: white;
+}

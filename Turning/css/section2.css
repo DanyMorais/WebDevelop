@@ -1,0 +1,13 @@
+.section2{
+    margin-left: 325px;
+}
+#section2_p{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+#section2_img{
+    width: 800px;
+    margin-left: -10px;
+}

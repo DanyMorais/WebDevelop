@@ -1,0 +1,27 @@
+.section5{
+    margin-left: 350px;
+}
+#section5{
+    display: flex;
+    margin-top: 80px;
+    width: 900px;
+}
+#section5_div1{
+    flex: auto;
+}
+#section5_div2{
+    flex: auto;
+}
+#section5_div3{
+    flex: auto;
+}   
+#section5_div2_span{
+    color: var(--bs-link-color);
+}
+#section5_div2_ul{
+    color: var(--bs-link-color);
+    list-style-type: none;
+}
+#section5_div2_h5{
+    text-align: center;
+}

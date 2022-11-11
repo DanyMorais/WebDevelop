@@ -1,0 +1,26 @@
+.section4{
+    margin-left: 350px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    display: flex;
+}
+#section4_div1{
+    flex: auto;
+}
+#section4_div2{
+    flex: auto;
+    font-size: 20px;
+}
+#section4_div2_filho1{
+    margin-top: 20px;
+}
+#section4_div2_filho2{
+    margin-top: 20px;
+}
+#section4_div2_filho3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section4_icon{
+    color: var(--bs-link-color);
+}

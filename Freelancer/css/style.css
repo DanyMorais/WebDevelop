@@ -1,0 +1,295 @@
+.container1 {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: sans-serif;  
+  }
+  #logo{
+    margin-right: 20px;
+    margin-bottom: -8px;
+  }
+
+  .right .left{
+    position: relative;
+  }
+  
+  .left {
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .right {
+    padding: 10px;
+    flex: 50%;
+  }
+
+  #item1{
+    color: rgb(44, 44, 44);
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  #item1:hover{
+    color: rgb(105, 107, 228);
+    background-size: cover;
+  }
+  
+  #button1{
+    background: rgb(209, 85, 157);
+    font-style: normal;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+
+  #button1:hover{
+    background: rgb(138, 55, 103);
+  }
+
+  .container2{
+    background-color: rgb(20, 20, 22);
+    padding: 15px 300px;
+    font-family: sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  #item2{
+    color: white;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #item2:hover{
+    background-color: rgb(104, 104, 104);
+    padding: 15px;
+  }
+
+  .container3{
+    background-image: url('https://static-cse.canva.com/blob/759754/IMAGE1.jpg');
+  }
+
+  .body{
+    padding: 200px 300px;
+    font-size: 25px;
+  }
+
+  #tit, #tex{
+    font-family: sans-serif;
+    color: white;
+  }
+
+  #button2{
+    background: rgb(209, 85, 157);
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 20px;
+  }
+
+  #button3{
+    background: rgb(0, 0, 0);
+    font-size: 18px;
+    border: 1;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 20px 50px;
+  }
+
+  .container4 {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: sans-serif;  
+    padding: 20px;
+  }
+
+  #asusedby {
+    flex: 25%;
+    color: black;
+    font-size: 20px;
+    margin-right: -600px;
+    margin-top: 10px;
+  }
+  
+  .img {
+    flex: 75%;
+  }
+
+  #logo2{
+    margin: 0px 10px;
+  }
+
+  #linha{
+    margin-top: -10px;
+    margin-left: 450px;
+    width: 1200px;
+  }
+
+  #titulo{
+    color: black;
+    margin-left: 300px;
+  }
+
+  #texto{
+    color: black;
+  }
+
+  .container5{
+    margin: 100px;
+    font-size: 120%;
+  }
+
+  .display {
+    margin: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 300px;
+  }
+
+  #icon, h3{
+    flex: 25%;
+  }
+
+h3{
+  padding-bottom: -30px;
+}
+
+  #texto{
+    flex: 75%;
+    margin-left: -60px;
+    margin-top: 50px;
+  }
+
+  .container6{
+    margin: 100px 400px;
+    font-style: sans-serif black;
+    font-size: 120%;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 200px;
+  }
+  th{
+    height: 100px;
+    padding: 40px 10px 0px 10px;
+  }
+
+  #descri{
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+  }
+
+  #button4{
+    background: rgb(224, 92, 169);
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px;
+    margin-left: 500px;
+  }
+
+  .container7{
+    margin-left: 450px;
+  }
+
+  .tabela2{
+    border-collapse: collapse;
+    width: 200px;
+  }
+  #tb2{
+    height: 100px;
+    padding: 40px 100px 0px 10px;
+  }
+
+  .container8 {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: sans-serif; 
+    margin-left: -10px;
+    margin-right: -10px; 
+  }
+
+  .ladoA {
+    flex: 50%;
+    background-image: url("https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/api-upsell-v3.jpg?image-optimizer=force&width=965");
+    background-repeat: no-repeat;
+  }
+  
+  .ladoB {
+    flex: 50%;
+    background-image: url("https://www.f-cdn.com/assets/main/en/assets/home/api-enterprise/enterprise-upsell-v3.jpg?image-optimizer=force&width=965");
+    background-repeat: no-repeat;
+  }
+
+  h2{
+    color: white;
+  }
+
+  .container9{
+    background-color: black;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .footer2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  #ft1, #ft2{
+    flex: 30%;
+  }
+  #ft3{
+    flex: 40%;
+  }
+
+  #ft1, #ft2, #ft3{
+    font-family: sans-serif;
+    font-size: 11px;
+  }
+
+  .footer1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+  #fot1, #fot2, #fot3, #fot4, #fot5, #fot6{
+    flex: 20%;
+  }
+
+  .apps{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  #android{
+    margin-top: 15px;
+  }
+  #link{
+    margin-right: 10px;
+  }
+
+  #logo3{
+    padding-top: 20px;
+  }

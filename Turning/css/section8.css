@@ -1,0 +1,39 @@
+
+.section8{
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+}
+#section8A{
+    flex: auto;
+    margin-right: -600px;
+}
+#section8B{
+    flex: auto;
+    font-size: 20px;
+    margin-top: -20px;
+}
+#section8_div2_filho1{
+    margin-top: 20px;
+}
+#section8_div2_filho2{
+    margin-top: 20px;
+}
+#section8_div2_filho3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#section8_icon, #section8_spamA{
+    color: var(--bs-link-color);
+}
+#section8A_img{
+    height: 300px;
+}
+#section8_a{
+    text-decoration: none;
+    background-color: var(--bs-link-color);
+    color: white;
+    border-radius: 2px;
+    padding: 10px 20px 10px 20px;
+}

@@ -1,0 +1,31 @@
+.section1{
+    display: flex;
+    margin-left: 325px;
+    margin-top: 50px;
+}
+#section1_left{
+    flex: 50%;
+    font-size: 20px;
+}
+#section1_right{
+    flex: 50%;
+}
+#section1_left_span{
+    color: var(--bs-link-color);
+}
+#section1_right{
+    margin-top: -60px;
+    margin-left: -750px;
+}
+#section1_right_img{
+    width: 750px;
+    height: 550px;
+}
+#section1_left_p1{
+    margin-bottom: 25px;
+}
+#section1_left_p2{
+    margin-top: 15px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+}

@@ -1,0 +1,18 @@
+.section9{
+    margin-left: 350px;
+}
+#heart{
+    color: rgb(212, 27, 27);
+}
+#star{
+    color: rgb(224, 224, 66);
+}
+.section9_div1{
+    display: flex;
+}
+#section9_div1{
+    flex: auto;
+}
+#section9_div2{
+    flex: auto;
+}

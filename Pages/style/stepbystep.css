@@ -1,0 +1,17 @@
+body {
+    background: #EEE;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("https://www.cidademarketing.com.br/marketing/wp-content/uploads/2020/03/nba.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.result-item {
+    background: white;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #d8d8d8;
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calcular.js"></script>
+    <script src="telefone.js"></script>
+    <script src="tamanhoString.js"></script>
+    <script src="asteristic.js"></script>
+    <script src="string.js"></script>
+    <script src="verifyString.js"></script>
+    <script src="repite.js"></script>
+    <script src="date.js"></script>
+    <script src="domManipulation.js"></script>
+</head>
+<body>
+    <h1 id="title">Exercicio</h1>
+    <div id="data"></div>
+    <p>
+        <div id="msg">Ola </div>
+    </p>
+    <p>
+        <input type="text" id="txt" name="name">
+        <button onclick="addName(name)">Set Name</button>
+    </p>
+    <p>
+        <input type="number" id="number" name="number">
+        <button onclick="getNumber(msg)">Set Number</button>
+        <div id="showNumber"></div>
+    </p>
+
+    <div id="list-counter">
+        <ul id="list">
+
+        </ul>
+    </div>
+
+    <div id="message">
+        <p>My message 1</p>
+        <p>My message 2</p>
+        <p>My message 3</p>
+        <p>My message 4</p>
+        <p>My message 5</p>
+    </div>
+
+    <div id="counter">
+        <button onclick="incre()">Incrementa</button>
+        <button onclick="decre()">Decrementa</button>
+        <button onclick="zerar()">zerar</button>
+        <span id="count">1</span>
+    </div>
+    <br>
+    <div id="color">
+        <select id="select" name="colors" onchange="color()">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+        </select>
+        <span id="box" style="display: inline-block; width: 15px; height: 15px;"></span>
+
+
+    </div>
+
+    <br>
+    <div id="timer">
+        <button onclick="timer()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <span>1</span>
+    </div>
+
+    <br>
+    <br>
+    <div id="calculator">
+        <input id="number1" type="number" placeholder="First Number">
+        <select name="operators">
+            <option value="Add">Add</option>
+            <option value="Subtract">Subtract</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Divide">Divide</option>
+        </select>
+        <input id="number2" type="number" placeholder="Second Number">
+        <button onclick="calculator()">Igual</button>
+        <span></span>
+    </div>
+    <br>
+    <br>
+    <div id="loto">
+        <input id="number1" type="number" style="width: 40px;">
+        <input id="number2" type="number" style="width: 40px;">
+        <input id="number3" type="number" style="width: 40px;">
+        <input id="number4" type="number" style="width: 40px;">
+        <input id="number5" type="number" style="width: 40px;">
+        <input id="number6" type="number" style="width: 40px;">
+        <button onclick="loto()">OK</button>
+        <br>
+        <br>
+        <input id="lotoNumber1" type="number" style="width: 40px;">
+        <input id="lotoNumber2" type="number" style="width: 40px;">
+        <input id="lotoNumber3" type="number" style="width: 40px;">
+        <input id="lotoNumber4" type="number" style="width: 40px;">
+        <input id="lotoNumber5" type="number" style="width: 40px;">
+        <input id="lotoNumber6" type="number" style="width: 40px;">
+        <span id="span"></span>
+    </div>
+    <br>
+    <br>
+    <div>
+        <button id="btn" onclick="ball()">Animation</button>
+        <button id="btn" onclick="stop()">Stop</button>
+        <div id="ball"></div>
+    </div>
+</body>
+</html>

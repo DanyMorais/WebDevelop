@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    margin-left: 300px;
+}
+#header_left{
+    flex: 50%;
+    margin-top: -40px;
+}
+#header_right{
+    flex: 50%;
+    margin-top: 25px;
+}
+#logo_header{
+    width: 175px;
+    height: 175px;
+}
+#header_right_a{
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray; 
+}
+#header_right_a:hover{
+    text-decoration: underline solid rgb(105, 105, 255);
+}
