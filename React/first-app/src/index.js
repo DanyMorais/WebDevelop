@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Layout from './pages/layout/Layout';
 import All from './pages/all/All';
 import Images from './pages/images/Images';
+import Layout from './pages/layout/Layout';
 import Videos from './pages/videos/Videos';
-import { Route, Routes } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
+import reportWebVitals from './reportWebVitals';
 import CounterPage from './pages/counter/CounterPage';
+import Todo from './components/todo/Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,11 +20,11 @@ root.render(
           <Route index element={<All />} />
           <Route path="images" element={<Images />} />
           <Route path="videos" element={<Videos />} />
-          <Route path="counterPage" element={<CounterPage />} />
+          <Route path="counter" element={<CounterPage />} />
+          <Route path="todo" element={<Todo />} />
         </Route>
       </Routes>
     </BrowserRouter>
-
 
   </React.StrictMode>
 );

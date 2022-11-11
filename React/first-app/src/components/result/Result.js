@@ -5,8 +5,9 @@ function Result(props) {
 
     return <div className='result-item'>
         <span>{props.url}</span>
-        <h4><Link to='./pages/counterPage'>{props.title}</Link></h4>
+        <h4><Link to='/videos'>{props.title}</Link></h4>
         <p>{props.summary}</p>
+        <button onClick={props.remove}>Eliminar</button>
     </div>
 
 }
