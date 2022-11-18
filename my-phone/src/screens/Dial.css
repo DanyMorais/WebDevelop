@@ -1,0 +1,13 @@
+.screen{
+    margin: 100px;
+    border: 1px solid black;
+    width: 170px;
+    height: 350px;
+}
+h1{
+    margin-left: 50px;
+} 
+.buttonGroup{
+    margin-left: 20px;
+}
+   
